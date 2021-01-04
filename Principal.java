@@ -1,11 +1,11 @@
-import logica.*;
+import java.util.Scanner;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		Programa p=new Programa();
-		p.iniciar();
+		Scanner entrada=new Scanner(System.in);
+		
+		System.out.println("Hello Programación2 ");
 
-	}
-
+  }
 }
